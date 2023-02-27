@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account page</title>
+    <link rel="stylesheet" href="styleregister.css">
+    <link rel="stylesheet" href="styleHome.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" width="125px">
+        </div>
+        <nav>
+            <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="index.html">Products </a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="register.html">Login</a></li>
+            </ul>
+
+        </nav>
+        <a href="https://www.freeiconspng.com/img/28337" title=""><img src="https://www.freeiconspng.com/uploads/shopping-cart-icon-5.png" width="30px" height="30px" alt="shopping cart icon" /></a>
+
+    </div>
+</div>
+</div>
+    
+    <div class="account-page">
+        
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                        <!---- <hr id="indicator"> --->
+                        </div>
+                        <form id="loginform">
+                            <p> Username</p>
+                           <input type="text" name="" placeholder="enter username">
+                           <p>Password</p>
+                           <input type="password" name="" placeholder="enter password">
+                           <input type="submit" name="" value="Login"><br>
+                           <a href="#"> forgot password?</a>
+                        </form><br>
+                        <form id="registerform">
+                            <p> Username</p>
+                           <input type="text" name="" placeholder="enter username">
+                           <p> email-id</p>
+                           <input type="email" name="" placeholder="enter email">
+                           <p>Password</p>
+                           <input type="password" name="" placeholder="enter password">
+                             <input type="submit" name="" value="Register">
+                             
+                        </form>
+
+
+                    </div>
+        
+    </div>
+    <script>
+        var loginform =document.getElementById("loginform");
+        var registerform=document.getElementById("registerform");
+       /* var indicator=document.getElementById("indicator"); */
+        function register()
+        {
+            registerform.style.transform="translateX(0px)";
+            loginform.style.transform="translateX(0px)";
+           /* indicator.style.transform="translateX(100px)"; */
+        }
+        function login()
+        {
+            registerform.style.transform="translateX(300px)";
+            loginform.style.transform="translateX(300px)";
+           /* indicator.style.transform="translateX(0px)";*/
+        }
+        
+    </script>
+</body>
+</html>

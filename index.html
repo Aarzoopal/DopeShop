@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilils.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        height: 15vh;
+        background-color: black;
+        color: blanchedalmond;
+        font-family: 'Oswald', sans-serif;
+        overflow: hidden;
+    }
+
+    header {
+        background-color: black;
+        overflow: hidden;
+
+        font-family: 'Oswald', sans-serif;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 3vw;
+        overflow: hidden;
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 10vh;
+        margin-left: 25px;
+
+    }
+
+    nav {
+        display: flex;
+        overflow: hidden;
+        max-width: 100vw;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+
+    }
+    .logo h1{
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 20vh;
+        padding: 0 2vw;
+    }
+
+    .container {
+        min-height: 78vh;
+    }
+
+    nav ul li a:hover {
+        color: rgb(0, 225, 255);
+        font-weight: bolder;
+
+
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .search input {
+        width: 37vw;
+        height: 7vh;
+        border-radius: 1vh;
+        margin: 0 13vw;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .logo2 img {
+        width: 5vh;
+        height: 5vh;
+        cursor: pointer;
+    }
+
+    .search .logo2 {
+        display: block;
+        position: relative;
+        align-content: center;
+        justify-content: center;
+        left: -18vw;
+        top: 1vh;
+
+        overflow: hidden;
+    }
+
+    .container .imgh img {
+
+        margin: 1vw 10vw;
+    }
+
+    .card-ing {
+        display: inline-flex;
+        flex-direction: column;
+        padding: 0 2vw;
+
+    }
+
+    .p {
+        max-width: 100vw;
+        margin: 1vh 0;
+    }
+
+    .line {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .p h2 {
+        text-transform: uppercase;
+        border: 2px solid black;
+        margin: 1vh 2vw;
+        color: black;
+    }
+
+    .flex-all-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 846px) {
+        nav {
+            flex-direction: column;
+        }
+
+        .logo {
+            justify-content: center;
+            padding: 2vh;
+        }
+
+        nav ul {
+            justify-content: center;
+
+        }
+
+        .search {
+            justify-content: center;
+        }
+
+        .search input {
+            width: 31vw;
+        }
+
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><img src="logo.png" alt="a"></h1>
+            </div>
+
+            <ul>
+                <li><a href="Home.html">HOME </a></li>
+                <li><a href="index.html">Product</a></li>
+                <li><a href="">About</a></li>
+               
+                <li><a href="register.html">Login</a></li>
+                <li><a href="https://www.freeiconspng.com/img/28337" title=""><img src="https://www.freeiconspng.com/uploads/shopping-cart-icon-5.png" width="30px" height="30px" alt="shopping cart icon" /></a></li>
+                
+            </ul>
+            
+            <div class="search">
+                 
+                <input type="text" placeholder="  Search Dope shop">
+                <div class="logo2">
+                    <img src="download.png" alt="a">
+                </div>
+
+
+
+            </div>
+        </nav>
+        
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="imgh"> <img src="https://source.unsplash.com/1200x500/?shopping,ecommerce" alt="a"> </div>
+
+            <div class="p">
+                <h2>WOMEN</h2>
+                <div class="card-ing">
+                    
+                    <img src="girl2.webp" alt="a" >
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="top1.jpg" alt="a" width="200" height="200">
+                    <div class="line">
+                        <p>TOPS</p>
+                        <p>
+                            about 40% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="BOTTOMS1.jpg" alt="a"  width="200" height="200">
+                    <div class="line">
+                        <p>BOTTOMS</p>
+                        <p>
+                            about 50% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="BOTTOMS1.jpg" alt="a" width="200" height="200">
+                    <div class="line">
+                        <p>denis footballs</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?hockey" alt="a">
+                    <div class="line">
+                        <p>hockey</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?basketball" alt="a">
+                    <div class="line">
+                        <p>basketballs</p>
+                        <p>
+                            about 60% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="p">
+                <h2>love for electronics</h2>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?mobile" alt="a">
+                    <div class="line">
+                        <p>latest mobiles</p>
+                        <p>
+                            about 30% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?television" alt="a">
+                    <div class="line">
+                        <p>latest televisions</p>
+                        <p>
+                            about 50% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?laptop" alt="a">
+                    <div class="line">
+                        <p>lappy's</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?watches" alt="a">
+                    <div class="line">
+                        <p>watches</p>
+                        <p>
+                            about 80% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?alexa" alt="a">
+                    <div class="line">
+                        <p>hockey</p>
+                    <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?basketball" alt="a">
+                    <div class="line">
+                        <p>basketballs</p>
+                        <p>
+                            about 60% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="p">
+                <h2>love for games</h2>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?cricket" alt="a">
+                    <div class="line">
+                        <p>cricket bats</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?badminton" alt="a">
+                    <div class="line">
+                        <p>badminton rackets</p>
+                        <p>
+                            about 40% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?volleyball" alt="a">
+                    <div class="line">
+                        <p>cosco volleyballs</p>
+                        <p>
+                            about 50% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?football" alt="a">
+                    <div class="line">
+                        <p>denis footballs</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?hockey" alt="a">
+                    <div class="line">
+                        <p>hockey</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?basketball" alt="a">
+                    <div class="line">
+                        <p>basketballs</p>
+                        <p>
+                            about 60% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="p">
+                <h2>love for games</h2>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?cricket" alt="a">
+                    <div class="line">
+                        <p>cricket bats</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?badminton" alt="a">
+                    <div class="line">
+                        <p>badminton rackets</p>
+                        <p>
+                            about 40% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?volleyball" alt="a">
+                    <div class="line">
+                        <p>cosco volleyballs</p>
+                        <p>
+                            about 50% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?football" alt="a">
+                    <div class="line">
+                        <p>denis footballs</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?hockey" alt="a">
+                    <div class="line">
+                        <p>hockey</p>
+                        <p>
+                            about 20% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+                <div class="card-ing">
+                    <img src="https://source.unsplash.com/165x160/?basketball" alt="a">
+                    <div class="line">
+                        <p>basketballs</p>
+                        <p>
+                            about 60% off
+                        </p>
+                        <p>
+                            grab now
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex-all-center">
+
+        <p>
+            copyright &copy; ALL RIGHTS RESERVED
+        </p>
+
+    </footer>
+</body>
+
+</html>

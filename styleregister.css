@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(loginpage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-container{
+    width: 320px;
+    height: 440px;
+    background:rgb(54, 53, 53);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 50px;
+    overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 10px 20px;
+    color: rgb(250, 245, 245);
+    cursor:pointer;
+    
+    
+
+}
+.form-container span:hover{
+    background: #ffc107;
+}
+
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding:  0 20px;
+    position: absolute;
+    transition: transform 1s;
+    
+}
+form input{
+    text-align: center;
+    width:80%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+form input[type="submit"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+form input[type="submit"]:hover 
+{
+    cursor:pointer;
+    background:#ffc107;
+    color: #000;
+}
+form-btn{
+    width: 100%;
+    border:none;
+    cursor: pointer;
+    margin:10px 0;
+
+
+}
+form-btn:focus{
+    outline: none;
+}
+#loginform{
+    left: -300px;
+}
+#registerform{
+    left:30px;
+}
+form a
+{
+    font-size: 12px;
+}
+ /*#indicator{
+    width:100px;
+    border:none;
+    background: #ff523b;
+    height: 3px;
+    margin-top: 8px;
+    transform: translate(100px);
+    transition: transform 1s;
+}
+*/
